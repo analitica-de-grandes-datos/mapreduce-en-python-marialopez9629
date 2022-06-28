@@ -6,17 +6,19 @@ result = os.popen(
 ).read()
 
 lines = [line.strip().replace("\n", "") for line in result.split("\n")]
-print(len(lines))
 
 expected = """credit_history	1
 critical	293
 delayed	88
 fully repaid	40
 fully repaid this bank	49
-repaid	530""".split(
+repaid	530
+""".split(
     "\n"
 )
 
+print(len(lines))
+print(len(expected))
 if len(lines) != len(expected):
     raise Exception("Wrong number of lines")
 
