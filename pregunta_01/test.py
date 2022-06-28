@@ -5,8 +5,8 @@ result = os.popen(
     "cat credit.csv | python3 mapper.py | sort | python3 reducer.py"
 ).read()
 
-print(result)
 lines = [line.strip().replace("\n", "") for line in result.split("\n")]
+print(len(lines))
 
 expected = """credit_history	1
 critical	293
