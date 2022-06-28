@@ -17,8 +17,6 @@ repaid	530
     "\n"
 )
 
-print(len(lines))
-print(len(expected))
 if len(lines) != len(expected):
     raise Exception("Wrong number of lines")
 
