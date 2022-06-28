@@ -12,4 +12,4 @@ if __name__ == "__main__":
         purpose=vector.split(',')[3]
         amount=vector.split(',')[4]        
         sys.stdout.write("{}\t{}\n".format(purpose,amount))
-#
+
