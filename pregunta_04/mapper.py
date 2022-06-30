@@ -11,4 +11,3 @@ if __name__ == "__main__":
         vector=line.split('\n')[0]
         letra=vector[0]     
         sys.stdout.write("{}\n".format(letra))
-#
