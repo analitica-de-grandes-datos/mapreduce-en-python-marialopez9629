@@ -15,7 +15,4 @@ if __name__ == "__main__":
         date=vector[1:11]
         value=vector[11:15]
         sys.stdout.write("{},{},{}\n".format(letra,date,value))
-#
-#
-#
-#
+
