@@ -10,4 +10,4 @@ if __name__ == "__main__":
         letras=vector[1]
         sys.stdout.write("{}\t{}\n".format(clave,letras))
 #
-#
+
