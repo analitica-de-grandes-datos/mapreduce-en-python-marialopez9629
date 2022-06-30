@@ -18,4 +18,3 @@ if __name__ == "__main__":
         value=vector[11:15]
         sys.stdout.write("{},{}\n".format(letra,value))
 #
-#
