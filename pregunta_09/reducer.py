@@ -1,4 +1,3 @@
-#
 #! /usr/bin/python3
 import sys
 import operator
@@ -23,8 +22,7 @@ if __name__ == '__main__':
 
     for key, value in resultado.items():
         contador+=1
-        sys.stdout.write("{}\t{}\t{}\n".format(value[0],value[1],key))
+        sys.stdout.write("{}   {}   {}\n".format(value[0],value[1],key))
         if contador==6:
            break
                 
-#
