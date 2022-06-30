@@ -15,4 +15,3 @@ if __name__ == "__main__":
         vector=line.split('\t')[0]
         mes=vector[6:8]
         sys.stdout.write("{}\n".format(mes))
-#
